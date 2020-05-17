@@ -5,7 +5,9 @@ variable "aws_region" {
 
 variable "aws_account_ids" {
   type    = list
-  default = null
+  default = [
+    "666014357539"
+  ]
 }
 
 terraform {
